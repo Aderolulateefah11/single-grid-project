@@ -1,0 +1,92 @@
+body{
+    background-color: hsl(204, 43%, 93%);   
+}
+.content{
+     text-transform: capitalize;
+     position:absolute;
+     margin-top: 50px;
+     left: 25%;
+     right: 25%;   
+ }
+ .container{
+    background-color: white;
+     padding: 20px 35px;
+     
+    
+ }
+ .container>h2{
+     color: hsl(71, 73%, 54%);
+ }
+ .container>h1{
+     
+     color: hsl(179, 62%, 43%);;
+ }
+ .main{
+     content: "";
+     display: block;
+     clear: both;    
+ }
+ .main>div{
+     float: left;
+ }
+ .content-1{
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+    height: 270px;
+     color:  hsl(204, 43%, 93%);
+   
+     
+      
+ }
+ .content-2{
+     width: 50%;
+     background-color:rgb(6, 188, 188);
+     color:  hsl(204, 43%, 93%); 
+     height: 270px;
+         
+ }
+ 
+ button{
+     width: 80%;
+     height: 40px;
+     background-color: rgb(159, 223, 31);
+     border: 5px ;
+     border-radius: 5px;
+     color: white;
+     text-transform: capitalize;
+     font-size: 15px;
+     margin: 10px 20px;
+     
+ }
+ button:hover{
+    background-color: aqua;
+ }
+ .content-1>h2{
+     padding: 5px 25px;
+ }
+ .content-1>p{
+     padding: 0 25px;
+ }
+ b{
+     font-size: 35px;
+     padding-right:8px;
+     font-family: Arial, Helvetica, sans-serif;;
+ }
+ .content-2>h2{
+     padding-left: 25px;
+ }
+ .content-2>p{
+     padding-left: 25px;
+     font-size: 10px;
+    
+ }
+ @media(min-width:375px) and (max-width:1440px){
+     .content-1{
+         width: 100%;
+     }
+     .content-2{
+         width: 100%;
+     }
+ }
+ 
+ 
